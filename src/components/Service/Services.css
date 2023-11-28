@@ -1,0 +1,26 @@
+.services{
+    background: linear-gradient(180deg, #F9F9F9 0%, #DCE8F5 100%);
+
+}
+
+.servicesCard:hover{
+    background-color: #E2FFEE !important;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    .gridServices{
+        grid-template-columns: none !important;
+        margin-left: 0px !important;
+    }
+    .servicesFloat{
+        position: inherit !important;
+    }
+    .servicesFloat p{
+        width: 100% !important;
+        text-align: center;
+    }
+}

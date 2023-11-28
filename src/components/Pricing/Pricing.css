@@ -1,0 +1,40 @@
+.middleBox{
+    border-radius: 24px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #11998E 0.11%, #38EF7D 99.89%);
+box-shadow: 0px 2px 50px 0px rgba(51, 174, 102, 0.20);
+}
+
+.middelBtn{
+    border-radius: 36px;
+background: linear-gradient(90deg, #FEAF02 10.22%, #F3E3B7 121.86%);
+color: #4B4848 !important;
+}
+
+.pricing{
+    background-image: url("/images/pricing.png") !important;
+    background-repeat: no-repeat !important;
+    /*background: linear-gradient(86deg, #0E7C72 -17.41%, #2CBE65 110.89%) !important;*/
+    z-index: 100;
+    height: 100%;
+    padding: 5% 0%;
+    background-position: right top;
+}
+
+@media only screen and (max-width: 950px) {
+    .pricingTextBlock{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .pricingBlock{
+        grid-template-columns: auto auto !important;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .pricingBlock{
+        grid-template-columns: auto !important;
+        justify-content: center !important;
+    }
+}

@@ -1,0 +1,13 @@
+.mobileMenu{
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .mobileMenu{
+        display: block;
+    }
+    .desktopBar{
+        display: none !important;
+    }
+}
+

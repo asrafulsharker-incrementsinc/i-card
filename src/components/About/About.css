@@ -1,0 +1,19 @@
+
+
+.about{
+    height: 100% !important;
+}
+
+
+    @media only screen and (max-width: 950px) {
+        .aboutRes .left img{
+            width: 100% !important;
+        }
+        .aboutRes{
+            flex-wrap: wrap;
+            justify-content: center !important;
+            gap: 0px !important;
+        }
+
+    }
+

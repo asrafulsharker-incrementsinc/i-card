@@ -1,0 +1,27 @@
+.cta{
+    background-image: url("/images/tree.png") !important;
+    background-repeat: no-repeat !important;
+    /*background: linear-gradient(86deg, #0E7C72 -17.41%, #2CBE65 110.89%) !important;*/
+    z-index: 100;
+    background-position: center bottom;
+    width: 100% !important;
+}
+
+.ctaRightImg{
+    background-image: url("/images/round.png") !important;
+    background-repeat: no-repeat !important;
+    /*background: linear-gradient(86deg, #0E7C72 -17.41%, #2CBE65 110.89%) !important;*/
+    z-index: 100;
+    background-position: right bottom;
+    width: 100% !important;
+    padding: 10% 0% 0% 0%!important;
+}
+
+@media only screen and (max-width: 950px) {
+    .ctaSectionFull{
+        flex-wrap: wrap !important;
+    }
+    .ctaSectionApps{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,15 @@
+
+
+@media only screen and (max-width: 950px) {
+    .heroRes{
+        flex-wrap: wrap !important;
+    }
+    .hergoRight{
+        width: 100% !important;
+        display: none !important;
+    }
+    .hergoRight img{
+        padding-top: 0vh !important;
+    }
+
+}
