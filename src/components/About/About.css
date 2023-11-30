@@ -14,6 +14,9 @@
             justify-content: center !important;
             gap: 0px !important;
         }
+        .about-container-right{
+            width: 100% !important;
+        }
 
     }
 

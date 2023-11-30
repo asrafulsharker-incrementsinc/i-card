@@ -29,9 +29,9 @@
     }
 }
 
-.HeroImg1:hover {
-    animation: shake 0.5s ease-in-out infinite; /* Adjust the duration and timing function as needed */
-}
+/*.HeroImg1:hover {*/
+/*    animation: shake 0.5s ease-in-out infinite; !* Adjust the duration and timing function as needed *!*/
+/*}*/
 
 
 @keyframes shake {
@@ -51,6 +51,9 @@
     transition: 1s ease-in-out;
 }
 
+.HeroImg ,.HeroImg1 ,.HeroImg2 ,.HeroImg3 ,.HeroImg4 {
+    transition: transform 1s ease-in-out;
+}
 
 .HeroMain:hover .HeroImg1 {
     transform: translateY(-35%); /* Adjust the translation as needed */
