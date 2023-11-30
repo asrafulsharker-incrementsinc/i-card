@@ -1,0 +1,81 @@
+
+
+@media only screen and (max-width: 950px) {
+    .heroRes{
+        flex-wrap: wrap !important;
+    }
+    .hergoRight{
+        width: 100% !important;
+        display: none !important;
+    }
+    .hergoRight img{
+        padding-top: 0vh !important;
+    }
+
+}
+.HeroImg22{
+    display: none !important;
+}
+
+@media only screen and (max-width: 1500px) {
+    .HeroImg1, .HeroImg2, .HeroImg3, .HeroImg4 {
+    display: none !important;   }
+
+    .HeroImg22{
+        display: block !important;
+    }
+    .HeroImg{
+        display: none !important;
+    }
+}
+
+.HeroImg1:hover {
+    animation: shake 0.5s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+}
+
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-5px); /* Adjust the shake distance as needed */
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+.HeroMain:hover .HeroImg {
+    transform: translateX(15%) ;
+    transition: 1s ease-in-out;
+}
+
+
+.HeroMain:hover .HeroImg1 {
+    transform: translateY(-35%); /* Adjust the translation as needed */
+    transition: 1s ease-in-out;
+}
+
+.HeroMain:hover .HeroImg2 {
+    transform: translateY(-35%); /* Adjust the translation as needed */
+    transition: 1s ease-in-out;
+}
+
+.HeroMain:hover .HeroImg3 {
+    transform: translateY(-35%); /* Adjust the translation as needed */
+    transition: 1s ease-in-out;
+}
+
+.HeroMain:hover .HeroImg4 {
+    transform: translateY(-35%); /* Adjust the translation as needed */
+    transition: 1s ease-in-out;
+}
+
+/*<img className="HeroImg1" src="/images/hero/1.png" style={{paddingTop: "10vh",width: "250px",height:'65px',position:"absolute",right:"15%"}} alt=""/>*/
+/*<img className="HeroImg2" src="/images/hero/2.png" style={{paddingTop: "25vh",width: "250px",height:'65px',position:"absolute",right:"-10%"}} alt=""/>*/
+/*<img className="HeroImg3" src="/images/hero/3.png" style={{paddingTop: "40vh",width: "250px",height:'65px',position:"absolute",right:"-20%"}} alt=""/>*/
+/*<img className="HeroImg4" src="/images/hero/4.png" style={{paddingTop: "55vh",width: "250px",height:'65px',position:"absolute",right:"-35%"}} alt=""/>      <img className="HeroImg1" src="/images/hero/1.png" style={{paddingTop: "10vh",width: "250px",height:'65px',position:"absolute",right:"15%"}} alt=""/>*/
+/*<img className="HeroImg2" src="/images/hero/2.png" style={{paddingTop: "25vh",width: "250px",height:'65px',position:"absolute",right:"-10%"}} alt=""/>*/
+/*<img className="HeroImg3" src="/images/hero/3.png" style={{paddingTop: "40vh",width: "250px",height:'65px',position:"absolute",right:"-20%"}} alt=""/>*/
+/*<img className="HeroImg4" src="/images/hero/4.png" style={{paddingTop: "55vh",width: "250px",height:'65px',position:"absolute",right:"-35%"}} alt=""/>*/

@@ -17,3 +17,45 @@
 
     }
 
+
+.about-container{
+
+}
+
+.about-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.shake-on-hover:hover {
+    animation: shake 1s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-5px); /* Adjust the shake distance as needed */
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+.shake-zoom-on-hover:hover {
+    animation: shake-zoom 1s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes shake-zoom {
+    0%, 100% {
+        transform: translateX(0) scale(1);
+    }
+    25%, 75% {
+        transform: translateX(-2px) scale(1.1); /* Adjust the shake distance and zoom factor as needed */
+    }
+    50% {
+        transform: translateX(5px) scale(1.1);
+    }
+}

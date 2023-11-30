@@ -5,17 +5,20 @@ import Service from '../Service/Service'
 import HappyClient from '../HappyClient/HappyClient'
 import Interest from '../Interest/Interest'
 import Contacts from '../Contacts/Contacts'
+import Hero2 from '../Hero2/Hero'
+
 
 
 function Home() {
     return (
         <>
             <div className="home" id="#home">
-
-                <Hero/>
+                <Hero2/>
+                {/*<Hero/>*/}
                 <About/>
                 <CTASection/>
                 <Service/>
+                {/*<Hero2/>*/}
                 {/*<HappyClient/>*/}
                 {/*<Interest/>*/}
                 {/*<Contacts/>*/}

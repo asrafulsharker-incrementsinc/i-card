@@ -8,8 +8,8 @@ function About() {
     <div className="about" style={{height:"80vh",display:"flex",alignItems:"center",backgroundColor:"#DCE8F5"}} id="about">
         <Container>
             <div className="aboutRes" style={{display:"flex",alignItems:"center",justifyContent:"space-between",gap:"100px"}}>
-                <div className="left" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-                    <img src="/images/about.png" alt="" width={'100%'} />
+                <div className="left about-container" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+                    <img className="shake-on-hover shake-zoom-on-hover" src="/images/about.png" alt="" width={'100%'} />
                 </div>
                 <div className="right" style={{display:"flex",flexDirection:"column",gap:"8px" , marginTop:"60px" , marginBottom:"60px"}}>
                     <p style={{fontSize:"40px",fontWeight:"700",lineHeight:"49px",letterSpacing:"-2px",color:"#4A4747"}}>Managing Business <span style={{color:"#11998E"}}>Card</span> have never been <span style={{color:"#2AB866"}}>Easier</span></p>
