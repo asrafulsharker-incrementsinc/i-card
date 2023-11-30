@@ -23,6 +23,10 @@
     transform: translateX(10%);
     transition: 1s ease-in-out;
 }
+.ctaManImage{
+    transition: 1s ease-in-out;
+
+}
 
 .ctaRightImg:hover .ctaManImage{
     transform: translateX(5%);
