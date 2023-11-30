@@ -10,6 +10,7 @@ import Root from "./components/Root/Root";
 import './index.css'
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
+import Privacy from "./components/Home/Privacy.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,8 +21,11 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home/>,
+      },
+      {
+        path: '/privacy',
+        element: <Privacy/>
       }
-      
     ]
   },
 ]);
