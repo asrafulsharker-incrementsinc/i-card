@@ -53,10 +53,10 @@ function Hero() {
 
                                 <img className="HeroImg" src="/images/hero/mobile.png" style={{paddingTop: "30vh"}} alt=""/>
                                 <img className="HeroImg22" src="/images/hero mobile.png" style={{paddingTop: "30vh"}} alt=""/>
-                                <img className="HeroImg1" src="/images/hero/1.png" style={{paddingTop: "20vh",width: "250px",height:'65px',position:"absolute",right:"15%"}} alt=""/>
-                                <img className="HeroImg2" src="/images/hero/2.png" style={{paddingTop: "35vh",width: "250px",height:'65px',position:"absolute",right:"-10%"}} alt=""/>
-                                <img className="HeroImg3" src="/images/hero/3.png" style={{paddingTop: "50vh",width: "250px",height:'65px',position:"absolute",right:"-20%"}} alt=""/>
-                                <img className="HeroImg4" src="/images/hero/4.png" style={{paddingTop: "65vh",width: "250px",height:'65px',position:"absolute",right:"-35%"}} alt=""/>
+                                <img className="HeroImg1" src="/images/hero/1.png"  alt=""/>
+                                <img className="HeroImg2" src="/images/hero/2.png"  alt=""/>
+                                <img className="HeroImg3" src="/images/hero/3.png"  alt=""/>
+                                <img className="HeroImg4" src="/images/hero/4.png" alt=""/>
                             </div>
                         </div>
                     </Container>
